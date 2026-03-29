@@ -1,0 +1,168 @@
+{
+  "id": "c27e53af-7967-4cc9-81d8-2f6702f229fa",
+  "version": "2.0",
+  "name": "tops",
+  "url": "https://www.tops-int.com",
+  "tests": [{
+    "id": "4226e4ad-a446-48a4-943c-eda8ef61106a",
+    "name": "tops",
+    "commands": [{
+      "id": "0491251a-ac33-4ca8-ba9b-fda43c16dcbd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e780443c-c63d-48eb-b7b1-589be27d5dd0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3480bf8-f252-4f57-98e8-b6edce0221de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-link > .fa-solid",
+      "targets": [
+        ["css=.nav-link > .fa-solid", "css:finder"],
+        ["xpath=//div[@id='navbarNav']/ul/li[5]/a/i", "xpath:idRelative"],
+        ["xpath=//a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab15d53c-a01d-482f-9ac6-2d347dbe0667",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact us",
+      "targets": [
+        ["linkText=Contact us", "linkText"],
+        ["css=.dropdown-menu-end > li:nth-child(7) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact us')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[5]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tops-int.com/contact-us')])[2]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd30fb2e-0c47-4774-845c-bec90089962e",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4cb8348-ef60-4261-b640-fade9bf92b86",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nikita pra"
+    }, {
+      "id": "91bcb031-31a2-4342-b42a-438f6d1b7f0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da43c422-4889-4da3-9c57-71a4dac3f72b",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a564f76-28e2-45cf-a56e-9b8f034b3422",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "niki.oza1920@gmail.com"
+    }, {
+      "id": "021a7b87-d17c-4960-9a4e-e7641438f319",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_contact",
+      "targets": [
+        ["id=inq_contact", "id"],
+        ["name=contact", "name"],
+        ["css=.px-3 > div #inq_contact", "css:finder"],
+        ["xpath=//input[@id='inq_contact']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "9978589621"
+    }, {
+      "id": "6a4bf0ae-e068-41f4-93f0-9a791ba16750",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Send Inquiry",
+      "targets": [
+        ["linkText=Send Inquiry", "linkText"],
+        ["css=.px-3 > div .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Send Inquiry')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[146]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Send Inquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7360a00a-8c93-4164-b06a-a7b0802ad6d9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "581387e0-4966-4d01-81ea-e2fd33e54a6e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4226e4ad-a446-48a4-943c-eda8ef61106a"]
+  }],
+  "urls": ["https://www.tops-int.com/"],
+  "plugins": []
+}
